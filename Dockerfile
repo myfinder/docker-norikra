@@ -17,4 +17,3 @@ RUN gem install norikra --no-ri --no-rdoc
 
 # run norikra
 EXPOSE 26571 26578
-CMD ["norikra", "start"]
