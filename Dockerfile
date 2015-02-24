@@ -9,8 +9,8 @@ RUN apt-get -y upgrade
 RUN apt-get -y install build-essential curl git openjdk-7-jdk
 
 # install jruby
-RUN curl -L http://jruby.org.s3.amazonaws.com/downloads/1.7.16/jruby-bin-1.7.16.tar.gz | tar zxf -
-ENV PATH /jruby-1.7.16/bin:$PATH
+RUN curl -L http://jruby.org.s3.amazonaws.com/downloads/1.7.19/jruby-bin-1.7.19.tar.gz | tar zxf -
+ENV PATH /jruby-1.7.19/bin:$PATH
 
 # install norikra
 RUN gem install norikra --no-ri --no-rdoc
